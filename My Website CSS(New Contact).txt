@@ -1,5 +1,5 @@
 body{
-	width:900px;
+	width:890px;
 	margin:0 auto;
 	font:11pt,Arial;
 	color:#FFFFFF;
@@ -33,7 +33,7 @@ color:#FF4500;
 }
 
 
-nav {
+#navigation {
 	display:block;
 	
 }
@@ -64,84 +64,115 @@ background-color:#FF8C00;
 .active{
 background-color:#FF8C00;
 }
+aside {
+	text-align:center;
+	font-size:60px;
+	border-style:solid;
+	color:#FF4500;	
+	
+}
 
 #first_paragraph {
-	width:900px;
-	text-align:center;
-	border-style:dotted;
+	float:left;
+	width:450px;
+	text-align:justify;
+	border-style:ridge;
 	font-size:18px;
-	color:#000000;
 	background-color:#FF8C00;
+	color:#000000;
 }
 
-#junior-camp1{
-height:300px;
-width:300px;
+#statehouse{
 float:left;
+height:200px;
+width:200px;
 }
 
-#junior-camp2{
-height:300px;
-width:300px;
-float:right;
+#jeffdescription{
+list-style:none;
+border-radius:10px;
+background:#FF6347;
+margin:0px;
+overflow:visible;
+}
+
+
+
+#lake{
 float:left;
+width:200px;
+height:200px;
 }
 
-#junior-camp3{
-height:300px;
-width:300px;
-float:right;
+#lilidescription{
+list-style:none;
+border-radius:10px;
+background:#FF6347;
+margin:0px;
+overflow:visible;
 }
+
+
 
 #second_paragraph {
-	width:900px;
-	text-align:center;
-	border-style:dotted;
+	float:right;
+	width:420px;
+	text-align:justify;
+	border-style:ridge;
 	font-size:18px;
+	background-color:#FF8C00;
 	color:#000000;
-	background-color:#FF6347;
 }
 
-#senior-camp1{
-height:300px;
-width:300px;
+#pam{
 float:left;
+width:200px;
+height:200px;
 }
 
-#senior-camp2{
-height:300px;
-width:300px;
-float:right;
+#pamdescription{
+list-style:none;
+border-radius:10px;
+background:#FF6347;
+margin:0px;
+overflow:visible;
+}
+
+#ben{
 float:left;
+width:200px;
+height:200px;
 }
 
-#senior-camp3{
-height:300px;
-width:300px;
-float:right;
+#bendescription{
+list-style:none;
+border-radius:10px;
+background:#FF6347;
+margin:0px;
+overflow:visible;
 }
+
+
 
 
 footer{
 	clear:both;
 	height:135px;
-	width:900px;
+	width:890px;
 	border:hidden;
 	background-color:#696969;
 }
 
-#hours{
-text-align:left;
+#Hours{
+text-align:right;
 color:#FF6347;
 text-decoration:underline;
 }
 
-#mon{
+#Dates1{
 text-align:right;
-color:#FF6347;
 }
 
-#sat{
+#Dates2{
 text-align:right;
-color:#FF6347;
 }
